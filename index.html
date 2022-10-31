@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cadeado_emoji.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+		<title>Sigilo de 100 anos?</title>
+		<meta name="title" content="Sigilo de 100 anos?">
+		<meta name="description" content="Já que está na hora do jair jair embora, quanto falta pra acabar o sigilo? 🤐">
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://metatags.io/">
+		<meta property="og:title" content="Sigilo de 100 anos?">
+		<meta property="og:description" content="Já que está na hora do jair jair embora, quanto falta pra acabar o sigilo? 🤐">
+		<meta property="og:image" content="/sigilo_100_anos_img.png">
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image">
+		<meta property="twitter:url" content="https://metatags.io/">
+		<meta property="twitter:title" content="Sigilo de 100 anos?">
+		<meta property="twitter:description" content="Já que está na hora do jair jair embora, quanto falta pra acabar o sigilo? 🤐">
+		<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+		<style>
+			body {
+				width: 100%;
+				height: 100%;
+				background-color: #E4142C;
+				font-family: "Roboto", sans-serif;
+			/* 	overflow: hidden; */
+			}
+			
+			main {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				content-align: center;
+				justify-content: center;
+			}
+			
+			a {
+				background-color: pink;
+				text-decoration: none;
+				color: #333333;
+			}
+			
+			.footer {
+				width: 100%;
+				text-align: center;
+				position: absolute;
+				bottom: 10px;
+				
+			}
+
+			h1 {
+				font-size: 18pt;
+				text-align: center;
+			}
+			
+			h1, div, span {
+				color: white;
+			}
+			
+			.counter {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.days {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 20px;
+			}
+			
+			.hours {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+			}
+			
+			.timeDisplay {
+				background-color: rgba(64, 65, 71, 0.5);
+				overflow: auto;
+				color: white;
+				padding: 15px 10px;
+				animation-name: update;
+			  animation-duration: 0.1s;
+				font-size: 18pt;
+			}
+			
+			@keyframes update {
+				from {background-color: rgba(230,230,230, 0.8)}
+				to {background-color: rgba(64, 65, 71, 0.5)}
+			}
+			
+			.text {
+			/* 	height: 100%; */
+				text-align: center;
+				font-weight: bold;
+				margin: auto 10px;
+				justify-content: center;
+				content-align: center;
+				font-size: 14pt;
+			}
+		</style>
+  </head>
+  <body>
+    <script type="module" src="/src/index.tsx"></script>
+		<span class="no-display"></span>
+    <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+		<main>
+			<h1 class="timeDisplay">Quanto falta para o sigilo 🔐 de 💯 anos ser quebrado?</h1>
+			<div id="root"></div>
+		</main>
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+		<div class="footer">contador sigilo 100 anos, criado por <a href="caiogomes.dev" target="_blank">Caio Gomes</a></div>
+  </body>
+</html>
